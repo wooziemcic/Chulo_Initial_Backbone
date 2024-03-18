@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chulo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+            <a href="#"><img src="Chulo_Logo_Resized_black.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>It's not just food. <br> It's the taste of <span> Home!</span> </h2>
+                    <p>Chulo is a technology company in which we are building a platform to promote and deliver authentic, traditional, and diverse ethnic home-cooked meals to your doorstep.<br>We're on a mission to onboard a wide array of ethnic kitchens, catering to the diverse tastes of our population. By partnering with small-scale food businesses, we provide them with a constant audience and support them to promote their cultural authenticity.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            <div class="imgBox">
+                <img src="indian.png" class="india">
+            </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="indian_logo.png" onclick="imgSlider('indian.png')"></li>
+                <li><img src="China_logo.png" onclick="imgSlider('chinese.png')"></li>
+                <li><img src="vietnam.png" onclick="imgSlider('viet.png')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="#"><img src="facebook.png"></a></li>
+                <li><a href="#"><img src="twitter.png"></a></li>
+                <li><a href="#"><img src="instagram.png"></a></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.india').src = anything;
+            }
+        </script>
+    </body>
+</html>
